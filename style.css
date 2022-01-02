@@ -1,0 +1,5716 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(124383.jpg);
+    /* overflow: hidden; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+.banner-txt {
+    max-width: 600px;
+    height: 400px;
+    padding-top: 20px;
+    /* background-color: red; */
+    margin: 90px auto 0 auto;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.h1 h1 {
+    font-family: 'Scheherazade New', serif;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.h2 {
+    font-family: 'Andada Pro', serif;
+    color: #CCD0D2;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.menu {
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    top: 0;
+    width: 70px;
+    height: 100%;
+    min-height: 500px;
+    background-color: #181818;
+}
+.menu nav i {
+    font-size: 25px;
+    color: #fff;
+}
+
+.menu nav {
+    background-color: #181818;
+    text-align: center;
+    margin-top: 100px;
+    min-height: 200px;
+
+}
+
+.icons {
+  margin: 0;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.menu .icons:hover i {
+   visibility: hidden;
+}
+.menu .icons:hover .menu-name{
+    display: block;
+}
+
+.menu .menu-name {
+    position: absolute;
+    transform: translateY(-20px) translateX(17px);
+    left: 0;
+    display: none;
+    transition: 200ms all;
+    color: wheat;
+}
+.menu-name p {
+    color: wheat;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: #23ffde;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Scheherazade New', serif;
+}
+
+.menu .box-2 {
+    transform: translateY(-20px) translateX(6px);
+}
+
+.menu .box-3 {
+    transform: translateY(-20px) translateX(8px);
+}
+
+.main {
+    height: 250px;
+    width: 800px;
+    position: absolute;
+    z-index: 1;
+    /* background-color:red ; */
+    top: 300px;
+    left: 560px;
+      
+}
+
+.main .main-h1 {
+    color: #fff;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Andada Pro', serif;
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+.main .books-type {
+    height: 59%;
+    min-width: 600px;
+    display: flex;
+    width: 5px;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.books-type .type-book {
+    width: 150px;
+    height: 160px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+.books-type .type-book-2 {
+    width: 150px;
+    height: 160px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 10px;
+}
+
+.books-type .type-book-3 {
+    width: 150px;
+    height: 160px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 10px;
+}
+
+.books-type .type-book-4 {
+    width: 150px;
+    height: 160px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 10px;
+
+}
+
+
+.book-name {
+    background-color: sienna;
+    text-align: center;
+}
+
+.book-name a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #ccc;
+    display: block;
+    transition: 131ms all;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Andada Pro', serif;
+}
+.book-name a:hover {
+    padding: 23px;
+}
+
+
+
+.main-az-books {
+
+    height: 250px;
+    width: 800px;
+    position: absolute;
+    z-index: 2;
+    left: 560px;
+    bottom: auto;
+    top: 600px;
+
+}
+
+.main-az-heading {
+    color: #fff;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Andada Pro', serif;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.main-az-heading h1::first-letter {
+    color: #23ffde;
+    font-size: 40px;
+}
+
+
+.main-books {
+    height: 59%;
+    min-width: 600px;
+    display: flex;
+    width: 5px;
+    position: absolute;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.main-books .type-book {
+    width: 150px;
+    height: 160px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+.main-books .type-book-2 {
+    width: 150px;
+    height: 160px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 10px;
+}
+
+.main-books .type-book-3 {
+    width: 150px;
+    height: 160px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 10px;
+}
+
+.main-books .type-book-4 {
+    width: 150px;
+    height: 160px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    margin-left: 10px;
+
+}
+
+.my-officials {
+    width: 152px;
+    display: flex;
+   background-color: #181818;
+    height: 35px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+.my-officials a {
+  display: block;
+  width: 50px;
+  background-image: url(icons8-instagram-32.png);
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.my-officials a:nth-child(2) {
+    background-image: url(icons8-facebook-32.png);
+}
+
+.my-officials a:nth-child(3) {
+    background-image: url(icons8-github-32.png);
+}
+.my-officials a:hover {
+    background-color: rgb(63, 56, 56);
+}
+
+/*         
+   1400  
+   1366  
+   1366
+   1321
+                 
+*/
+/* start */
+@media screen and (max-width: 1400px) and (min-width: 1381px) and (min-height:781px) and (max-height: 810px) {
+    .main {
+        height: 250px;
+        width: 605px;
+        position: absolute;
+        z-index: 1;
+        top: 200px;
+        /* background-color: rebeccapurple; */
+        min-width: 500px;
+        left: 410px;
+      }
+    .main-az-books {
+        height: 250px;
+        width: 605px;
+        /* background-color: red; */
+        position: absolute;
+        transform: translateY(10px);
+        z-index: 2;
+        top: 400px;
+        left: 410px;
+        bottom: auto;  
+     }
+        .main-books {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        position: absolute;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;
+     }
+    
+    .main .books-type {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;   
+    }
+    
+    .main .main-h1 {
+    
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .main-az-heading {
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    
+    .h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    
+    .h1 h1 {
+        font-family: 'Scheherazade New', serif;
+        color: white;
+        font-weight: 700;
+        display: inline-block;
+        font-size: 34px;
+    }
+    
+    .h2 h2 {
+        font-size: 18px;
+    }
+    .banner-txt {
+        max-width: 600px;
+        height: 110px;
+        padding-top: 20px;
+        /* background-color: red; */
+        /* transform: translateX(-25px); */
+        margin: 60px auto 0 auto;
+    }
+    
+    .books-type .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    .book-name a {
+        font-size: 17px;
+        text-decoration: none;
+        color: #ccc;
+        display: block;
+        transition: 131ms all;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        font-family: 'Andada Pro', serif;
+    }
+    .book-name a:hover {
+        padding: 20px;
+    }
+    
+    .my-officials a {
+       width: 45px;
+       height: 30px;
+       margin-top: 2px;
+        }
+}
+
+
+@media screen and (max-width: 1380px) and (min-width: 1367px) and (min-height: 811px) and (max-height: 850px) {
+    .main {
+        height: 250px;
+        width: 605px;
+        position: absolute;
+        z-index: 1;
+        top: 200px;
+        /* background-color: rebeccapurple; */
+        min-width: 500px;
+        left: 390px;
+      }
+    .main-az-books {
+        height: 250px;
+        width: 605px;
+        /* background-color: red; */
+        position: absolute;
+        transform: translateY(10px);
+        z-index: 2;
+        top: 415px;
+        left: 390px;
+        bottom: auto;  
+     }
+        .main-books {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        position: absolute;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;
+     }
+    
+    .main .books-type {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;   
+    }
+    
+    .main .main-h1 {
+    
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .main-az-heading {
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    
+    .h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    
+    .h1 h1 {
+        font-family: 'Scheherazade New', serif;
+        color: white;
+        font-weight: 700;
+        display: inline-block;
+        font-size: 34px;
+    }
+    
+    .h2 h2 {
+        font-size: 18px;
+    }
+    .banner-txt {
+        max-width: 600px;
+        height: 110px;
+        padding-top: 20px;
+        /* background-color: red; */
+        /* transform: translateX(-25px); */
+        margin: 60px auto 0 auto;
+    }
+    
+    .books-type .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    .book-name a {
+        font-size: 17px;
+        text-decoration: none;
+        color: #ccc;
+        display: block;
+        transition: 131ms all;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        font-family: 'Andada Pro', serif;
+    }
+    .book-name a:hover {
+        padding: 20px;
+    }
+    
+    .my-officials a {
+       width: 45px;
+       height: 30px;
+       margin-top: 2px;
+        }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1381px) and (min-height: 811px) and (max-height: 850px) {
+    .main {
+        height: 250px;
+        width: 605px;
+        position: absolute;
+        z-index: 1;
+        top: 200px;
+        /* background-color: rebeccapurple; */
+        min-width: 500px;
+        left: 390px;
+      }
+    .main-az-books {
+        height: 250px;
+        width: 605px;
+        /* background-color: red; */
+        position: absolute;
+        transform: translateY(10px);
+        z-index: 2;
+        top: 425px;
+        left: 390px;
+        bottom: auto;  
+     }
+        .main-books {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        position: absolute;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;
+     }
+    
+    .main .books-type {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;   
+    }
+    
+    .main .main-h1 {
+    
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .main-az-heading {
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    
+    .h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    
+    .h1 h1 {
+        font-family: 'Scheherazade New', serif;
+        color: white;
+        font-weight: 700;
+        display: inline-block;
+        font-size: 34px;
+    }
+    
+    .h2 h2 {
+        font-size: 18px;
+    }
+    .banner-txt {
+        max-width: 600px;
+        height: 110px;
+        padding-top: 20px;
+        /* background-color: red; */
+        /* transform: translateX(-25px); */
+        margin: 60px auto 0 auto;
+    }
+    
+    .books-type .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    .book-name a {
+        font-size: 17px;
+        text-decoration: none;
+        color: #ccc;
+        display: block;
+        transition: 131ms all;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        font-family: 'Andada Pro', serif;
+    }
+    .book-name a:hover {
+        padding: 20px;
+    }
+    
+    .my-officials a {
+       width: 45px;
+       height: 30px;
+       margin-top: 2px;
+        }
+}
+
+
+@media screen and (max-width: 1366px) and (min-width: 1321px) {
+    .main {
+        height: 250px;
+        width: 605px;
+        position: absolute;
+        z-index: 1;
+        top: 200px;
+        /* background-color: rebeccapurple; */
+        min-width: 500px;
+        left: 395px;
+      }
+    .main-az-books {
+        height: 250px;
+        width: 605px;
+        /* background-color: red; */
+        position: absolute;
+        transform: translateY(10px);
+        z-index: 2;
+        top: 430px;
+        left: 395px;
+        bottom: auto;  
+     }
+        .main-books {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        position: absolute;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;
+     }
+    
+    .main .books-type {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;   
+    }
+    
+    .main .main-h1 {
+    
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .main-az-heading {
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    
+    .h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    
+    .h1 h1 {
+        font-family: 'Scheherazade New', serif;
+        color: white;
+        font-weight: 700;
+        display: inline-block;
+        font-size: 34px;
+    }
+    
+    .h2 h2 {
+        font-size: 18px;
+    }
+    .banner-txt {
+        max-width: 600px;
+        height: 110px;
+        padding-top: 20px;
+        /* background-color: red; */
+        /* transform: translateX(-25px); */
+        margin: 60px auto 0 auto;
+    }
+    
+    .books-type .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    .book-name a {
+        font-size: 17px;
+        text-decoration: none;
+        color: #ccc;
+        display: block;
+        transition: 131ms all;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        font-family: 'Andada Pro', serif;
+    }
+    .book-name a:hover {
+        padding: 20px;
+    }
+    
+    .my-officials a {
+       width: 45px;
+       height: 30px;
+       margin-top: 2px;
+          }
+}
+@media screen and (max-width: 1320px) and (min-width: 1280px) {
+    .main {
+        height: 250px;
+        width: 605px;
+        position: absolute;
+        z-index: 1;
+        top: 200px;
+        /* background-color: rebeccapurple; */
+        min-width: 500px;
+        left: 360px;
+      }
+    .main-az-books {
+        height: 250px;
+        width: 605px;
+        /* background-color: red; */
+        position: absolute;
+        transform: translateY(10px);
+        z-index: 2;
+        top: 500px;
+        left: 360px;
+        bottom: auto;  
+     }
+        .main-books {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        position: absolute;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;
+     }
+    
+    .main .books-type {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;   
+    }
+    
+    .main .main-h1 {
+    
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .main-az-heading {
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    
+    .h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    
+    .h1 h1 {
+        font-family: 'Scheherazade New', serif;
+        color: white;
+        font-weight: 700;
+        display: inline-block;
+        font-size: 34px;
+    }
+    
+    .h2 h2 {
+        font-size: 18px;
+    }
+    .banner-txt {
+        max-width: 600px;
+        height: 110px;
+        padding-top: 20px;
+        /* background-color: red; */
+        /* transform: translateX(-25px); */
+        margin: 60px auto 0 auto;
+    }
+    
+    .books-type .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    .book-name a {
+        font-size: 17px;
+        text-decoration: none;
+        color: #ccc;
+        display: block;
+        transition: 131ms all;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        font-family: 'Andada Pro', serif;
+    }
+    .book-name a:hover {
+        padding: 20px;
+    }
+    
+    .my-officials a {
+       width: 45px;
+       height: 30px;
+       margin-top: 2px;
+          }
+}
+@media screen and (max-width: 1400px) and (min-width: 1381px) and (min-height:750px) and (max-height: 780px) {
+    .main {
+        height: 250px;
+        width: 605px;
+        position: absolute;
+        z-index: 1;
+        top: 200px;
+        /* background-color: rebeccapurple; */
+        min-width: 500px;
+        left: 420px;
+      }
+    .main-az-books {
+        height: 250px;
+        width: 605px;
+        /* background-color: red; */
+        position: absolute;
+        transform: translateY(10px);
+        z-index: 2;
+        top: 400px;
+        left: 420px;
+        bottom: auto;  
+     }
+        .main-books {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        position: absolute;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;
+     }
+    
+    .main .books-type {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;   
+    }
+    
+    .main .main-h1 {
+    
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .main-az-heading {
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    
+    .h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    
+    .h1 h1 {
+        font-family: 'Scheherazade New', serif;
+        color: white;
+        font-weight: 700;
+        display: inline-block;
+        font-size: 34px;
+    }
+    
+    .h2 h2 {
+        font-size: 18px;
+    }
+    .banner-txt {
+        max-width: 600px;
+        height: 110px;
+        padding-top: 20px;
+        /* background-color: red; */
+        /* transform: translateX(-25px); */
+        margin: 60px auto 0 auto;
+    }
+    
+    .books-type .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    .book-name a {
+        font-size: 17px;
+        text-decoration: none;
+        color: #ccc;
+        display: block;
+        transition: 131ms all;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        font-family: 'Andada Pro', serif;
+    }
+    .book-name a:hover {
+        padding: 20px;
+    }
+    
+    .my-officials a {
+       width: 45px;
+       height: 30px;
+       margin-top: 2px;
+        }
+}
+
+
+@media screen and (max-width: 1380px) and (min-width: 1367px) and (min-height:781px) and (max-height: 810px) {
+    .main {
+        height: 250px;
+        width: 605px;
+        position: absolute;
+        z-index: 1;
+        top: 200px;
+        /* background-color: rebeccapurple; */
+        min-width: 500px;
+        left: 395px;
+      }
+    .main-az-books {
+        height: 250px;
+        width: 605px;
+        /* background-color: red; */
+        position: absolute;
+        transform: translateY(10px);
+        z-index: 2;
+        top: 410px;
+        left: 395px;
+        bottom: auto;  
+     }
+        .main-books {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        position: absolute;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;
+     }
+    
+    .main .books-type {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;   
+    }
+    
+    .main .main-h1 {
+    
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .main-az-heading {
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    
+    .h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    
+    .h1 h1 {
+        font-family: 'Scheherazade New', serif;
+        color: white;
+        font-weight: 700;
+        display: inline-block;
+        font-size: 34px;
+    }
+    
+    .h2 h2 {
+        font-size: 18px;
+    }
+    .banner-txt {
+        max-width: 600px;
+        height: 110px;
+        padding-top: 20px;
+        /* background-color: red; */
+        /* transform: translateX(-25px); */
+        margin: 60px auto 0 auto;
+    }
+    
+    .books-type .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    .book-name a {
+        font-size: 17px;
+        text-decoration: none;
+        color: #ccc;
+        display: block;
+        transition: 131ms all;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        font-family: 'Andada Pro', serif;
+    }
+    .book-name a:hover {
+        padding: 20px;
+    }
+    
+    .my-officials a {
+       width: 45px;
+       height: 30px;
+       margin-top: 2px;
+        }
+}
+@media screen and (max-width: 1380px) and (min-width: 1367px) and (min-height:750px) and (max-height: 780px) {
+    .main {
+        height: 250px;
+        width: 605px;
+        position: absolute;
+        z-index: 1;
+        top: 200px;
+        /* background-color: rebeccapurple; */
+        min-width: 500px;
+        left: 395px;
+      }
+    .main-az-books {
+        height: 250px;
+        width: 605px;
+        /* background-color: red; */
+        position: absolute;
+        transform: translateY(10px);
+        z-index: 2;
+        top: 405px;
+        left: 395px;
+        bottom: auto;  
+     }
+        .main-books {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        position: absolute;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;
+     }
+    
+    .main .books-type {
+        height: 59%;
+        min-width: 600px;
+        display: flex;
+        width: 5px;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 0;   
+    }
+    
+    .main .main-h1 {
+    
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .main-az-heading {
+        color: #fff;
+        padding-bottom: 15px;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    
+    .h1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    
+    .h1 h1 {
+        font-family: 'Scheherazade New', serif;
+        color: white;
+        font-weight: 700;
+        display: inline-block;
+        font-size: 34px;
+    }
+    
+    .h2 h2 {
+        font-size: 18px;
+    }
+    .banner-txt {
+        max-width: 600px;
+        height: 110px;
+        padding-top: 20px;
+        /* background-color: red; */
+        /* transform: translateX(-25px); */
+        margin: 60px auto 0 auto;
+    }
+    
+    .books-type .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+    }
+    .book-name a {
+        font-size: 17px;
+        text-decoration: none;
+        color: #ccc;
+        display: block;
+        transition: 131ms all;
+        padding: 20px;
+        width: 100%;
+        height: 100%;
+        font-family: 'Andada Pro', serif;
+    }
+    .book-name a:hover {
+        padding: 20px;
+    }
+    
+    .my-officials a {
+       width: 45px;
+       height: 30px;
+       margin-top: 2px;
+        }
+}
+
+/* end */
+/* end */
+
+
+
+
+/* 
+
+*/ 
+/* start */
+@media screen and (max-width: 849px) and (min-width: 800px) and (max-height:900px) and (min-height: 770px) {
+    .main-az-books {
+        /* background-color: red; */
+        left: 190px;
+        top: 430px;
+        width: 530px;
+        bottom: auto;
+    }
+
+    .main-az-heading {
+
+        font-size: 16px;
+    }
+    .main-h1 {
+        font-size: 16px;
+    }
+  
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 190px;
+        width: 530px;
+        top: 200px;
+    }
+
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main-books {
+        margin-left: 0;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    .books-type .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-2 {
+        width: 120px;
+        margin-left: 5px;
+        height: 130px;
+    }
+    .books-type .type-book-3 {
+        width: 120px;
+        margin-left: 5px;
+        height: 130px;
+    }
+    .books-type .type-book-4 {
+        width: 120px;
+        margin-left: 5px;
+        height: 130px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-2 {
+        width: 120px;
+        height: 130px;
+        margin-left: 5px;
+    }
+    .main-books .type-book-3 {
+        width: 120px;
+        height: 130px;;
+        margin-left: 5px;
+    }
+    .main-books .type-book-4 {
+        width: 120px;
+        margin-left: 5px;
+        height: 130px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        width: 55px;
+        height: 100vh;
+    }
+    .menu nav a:hover p {
+        font-size: 15px ;
+    }
+
+    .menu-name p {
+        transform: translateX(-4px);
+    }
+}
+@media screen and (max-width: 899px) and (min-width: 850px) and (max-height:900px) and (min-height: 770px) {
+    .main-az-books {
+        /* background-color: red; */
+        left: 205px;
+        top: 430px;
+        width: 530px;
+        bottom: auto;
+    }
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 200px;
+        width: 530px;
+        top: 205px;
+    }
+
+
+
+    .main-az-heading {
+
+        font-size: 16px;
+    }
+    .main-h1 {
+        font-size: 16px;
+    }
+  
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main-books {
+        margin-left: 0;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    .books-type .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-2 {
+        width: 120px;
+        margin-left: 5px;
+        height: 130px;
+    }
+    .books-type .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-left: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 120px;
+        margin-left: 5px;
+        height: 130px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-2 {
+        width: 120px;
+        height: 130px;
+        margin-left: 5px;
+    }
+    .main-books .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-left: 5px;
+    }
+    .main-books .type-book-4 {
+        width: 120px;
+        margin-left: 5px;
+        height: 130px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        width: 55px;
+        height: 100vh;
+    }
+    .menu nav a:hover p {
+        font-size: 15px ;
+    }
+
+    .menu-name p {
+        transform: translateX(-4px);
+    }
+}
+
+@media screen and (max-width: 750px) and (min-width: 700px) and (max-height:1024px) and (min-height: 800px) {
+    .main-az-books {
+        /* background-color: red; */
+        left: 165px;
+        top: 520px;
+        width: 450px;
+        bottom: auto;
+    }
+
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 165px;
+        min-height: 60px;
+        width: 450px;
+        top: 160px;
+    }
+
+    .main-az-heading {
+
+        font-size: 16px;
+    }
+    .main-h1 {
+        font-size: 16px;
+    }
+  
+
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 370px;
+        margin: 0 auto;
+        height: 100%;
+  
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 125px;
+        height: 135px;
+    }
+    .books-type .type-book-2 {
+        width: 125px;
+        height: 135px;
+    }
+    .books-type .type-book-3 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+        margin-left: 2px ;
+    }
+    .books-type .type-book-4 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        transform: translateX(10px);
+        margin: 0 30px;
+        /* background-color: gold; */
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 125px;
+        height: 135px;
+    }
+    .main-books .type-book-2 {
+        width: 125px;
+        height: 135px;;
+    }
+    .main-books .type-book-3 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+        margin-left: 2px;
+    }
+    .main-books .type-book-4 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        width: 60px;
+        height: 100vh;
+    }
+
+    .menu nav a p {
+        display: block;
+    }
+    .menu nav a p {
+        font-size: 16px ;
+    }
+    .menu i {
+        visibility: hidden;
+        font-size: 15px ;
+     }
+
+     .menu .menu-name{
+        display: block;
+       
+    }
+
+    .menu-name p {
+        transform: translateX(-4px);
+    }
+}
+@media screen and (max-width: 770px) and (min-width: 751px) and (max-height:1024px) and (min-height: 800px) {
+    .main-az-books {
+        /* background-color: red; */
+        left: 165px;
+        top: 520px;
+        width: 450px;
+        bottom: auto;
+    }
+
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 165px;
+        min-height: 60px;
+        width: 450px;
+        top: 160px;
+    }
+
+    .main-az-heading {
+
+        font-size: 16px;
+    }
+    .main-h1 {
+        font-size: 16px;
+    }
+  
+
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 370px;
+        margin: 0 auto;
+        height: 100%;
+  
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 125px;
+        height: 135px;
+    }
+    .books-type .type-book-2 {
+        width: 125px;
+        height: 135px;
+    }
+    .books-type .type-book-3 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+        margin-left: 2px ;
+    }
+    .books-type .type-book-4 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        transform: translateX(10px);
+        margin: 0 30px;
+        /* background-color: gold; */
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 125px;
+        height: 135px;
+    }
+    .main-books .type-book-2 {
+        width: 125px;
+        height: 135px;;
+    }
+    .main-books .type-book-3 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+        margin-left: 2px;
+    }
+    .main-books .type-book-4 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        width: 60px;
+        height: 100vh;
+    }
+
+    .menu nav a p {
+        display: block;
+    }
+    .menu nav a p {
+        font-size: 16px ;
+    }
+    .menu i {
+        visibility: hidden;
+        font-size: 15px ;
+     }
+
+     .menu .menu-name{
+        display: block;
+       
+    }
+
+    .menu-name p {
+        transform: translateX(-4px);
+    }
+}
+
+@media screen and (max-width: 799px) and (min-width: 771px) and (max-height:1024px) and (min-height: 800px) {
+    .main-az-books {
+        /* background-color: red; */
+        left: 185px;
+        top: 520px;
+        width: 450px;
+        bottom: auto;
+    }
+
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 185px;
+        min-height: 60px;
+        width: 450px;
+        top: 160px;
+    }
+
+    .main-az-heading {
+
+        font-size: 16px;
+    }
+    .main-h1 {
+        font-size: 16px;
+    }
+  
+
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 370px;
+        margin: 0 auto;
+        height: 100%;
+  
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 125px;
+        height: 135px;
+    }
+    .books-type .type-book-2 {
+        width: 125px;
+        height: 135px;
+    }
+    .books-type .type-book-3 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+        margin-left: 2px ;
+    }
+    .books-type .type-book-4 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        transform: translateX(10px);
+        margin: 0 auto;
+        /* background-color: gold; */
+        height: 100%;
+        /* background-color: aquamarine; */
+    }
+    .main-books .type-book {
+        width: 125px;
+        height: 135px;
+    }
+    .main-books .type-book-2 {
+        width: 125px;
+        height: 135px;;
+    }
+    .main-books .type-book-3 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+        margin-left: 2px;
+    }
+    .main-books .type-book-4 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        width: 60px;
+        height: 100vh;
+    }
+
+    .menu nav a p {
+        display: block;
+    }
+    .menu nav a p {
+        font-size: 16px ;
+    }
+    .menu i {
+        visibility: hidden;
+        font-size: 15px ;
+     }
+
+     .menu .menu-name{
+        display: block;
+       
+    }
+
+    .menu-name p {
+        transform: translateX(-4px);
+    }
+}
+
+
+
+/* end */
+
+
+
+ 
+
+
+
+
+
+@media screen and (max-width: 1000px) and (min-width: 951px) and (max-height:900px) and (min-height: 770px){
+     
+    .main-az-books {
+        /* background-color: red; */
+        left: 200px;
+        width: 585px;
+        bottom: auto;
+        top: 455px;
+    }
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 200px;
+        width: 585px;
+        top: 200px;
+    }
+
+    .main-az-heading {
+        font-size: 17px;
+    }
+
+    .main .books-type {
+        margin-left: 0;
+    }
+    .main-books {
+        margin-left: 0;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        height: 100px;
+    }
+    .books-type .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-2 {
+        width: 130px;
+        height: 140px;;
+    }
+    .books-type .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-2 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 33px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 14px;
+    }
+
+    .menu {
+        width: 60px;
+    }
+    .menu nav a:hover p {
+        font-size: 15px ;
+    }
+
+
+}
+@media screen and (max-width: 950px) and (min-width: 900px) and (max-height:900px) and (min-height: 770px){
+     
+    .main-az-books {
+        /* background-color: red; */
+        bottom: auto;
+        top: 440px;
+        left: 200px;
+        width: 585px;
+    }
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 200px;
+        width: 585px;
+        top: 200px;
+    }
+
+
+    .main-az-heading {
+        font-size: 17px;
+    }
+
+    .main .books-type {
+        margin-left: 0;
+    }
+    .main-books {
+        margin-left: 0;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        height: 100px;
+    }
+    .books-type .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-2 {
+        width: 130px;
+        height: 140px;;
+    }
+    .books-type .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-2 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 33px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 14px;
+    }
+
+    .menu {
+        width: 60px;
+    }
+    .menu nav a:hover p {
+        font-size: 15px ;
+    }
+
+
+}
+
+
+
+
+/* 899--950 */
+
+
+
+
+@media screen and (max-width: 1050px) and (min-width: 1000px) and (max-height:900px) and (min-height: 835px) {
+    .main-az-books {
+        /* background-color: red; */
+        left: 235px;
+        bottom: 0;
+        top: 470px;
+        width: 585px;
+    }
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 235px;
+        width: 585px;
+        top: 200px;
+    }
+
+    .main-az-heading {
+        font-size: 17px;
+    }
+
+
+    .main .books-type {
+        margin-left: 0;
+    }
+    .main-books {
+        margin-left: 0;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin: 80px auto 0 auto;        
+        height: 100px;
+        transform: translateX(18px);
+    }
+    .books-type .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-2 {
+        width: 130px;
+        height: 140px;;
+    }
+    .books-type .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-2 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 35px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 14px;
+    }
+
+    .menu {
+        width: 60px;
+    }
+    .menu nav a:hover p {
+        font-size: 15px ;
+    }
+}
+@media screen and (max-width: 1100px) and (min-width: 1051px) and (max-height:900px) and (min-height: 835px) {
+    .main-az-books {
+        /* background-color: red; */
+        left: 255px;
+        bottom: 0;
+        top: 470px;
+        width: 585px;
+    }
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 255px;
+        width: 585px;
+        top: 200px;
+    }
+
+    .main-az-heading {
+        font-size: 17px;
+    }
+
+
+    .main .books-type {
+        margin-left: 0;
+    }
+    .main-books {
+        margin-left: 0;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin: 70px auto 0 auto;        
+        height: 100px;
+        transform: translateX(18px);
+    }
+    .books-type .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-2 {
+        width: 130px;
+        height: 140px;;
+    }
+    .books-type .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-2 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 36px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 14px;
+    }
+
+    .menu {
+        width: 60px;
+    }
+    .menu nav a:hover p {
+        font-size: 15px ;
+    }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 1151px) and (max-height:900px) and (min-height: 835px)  {
+    .main-az-books {
+        /* background-color: red; */
+        left: 300px;
+        width: 585px;
+        bottom: none;
+        top: 465px;
+    }
+
+    .main-az-heading {
+
+        font-size: 17px;
+    }
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 300px;
+        width: 585px;
+        top: 200px;
+    }
+    .main .books-type {
+        margin-left: 0;
+    }
+    .main-books {
+        margin-left: 0;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        height: 100px;
+        transform: translateX(10px);
+    }
+    .books-type .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-2 {
+        width: 130px;
+        height: 140px;;
+    }
+    .books-type .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-2 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 36px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 14px;
+    }
+
+    .menu {
+        width: 60px;
+    }
+    .menu nav a:hover p {
+        font-size: 15px ;
+    }
+}
+
+@media screen and (max-width: 1150px) and (min-width: 1101px) and (max-height:900px) and (min-height: 835px)  {
+    .main-az-books {
+        /* background-color: red; */
+        left: 290px;
+        width: 585px;
+        bottom: none;
+        top: 470px;
+    }
+
+    .main-az-heading {
+
+        font-size: 17px;
+    }
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 290px;
+        width: 585px;
+        top: 200px;
+    }
+    .main .books-type {
+        margin-left: 0;
+    }
+    .main-books {
+        margin-left: 0;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        height: 100px;
+    }
+    .books-type .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-2 {
+        width: 130px;
+        height: 140px;;
+    }
+    .books-type .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-2 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 33px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 14px;
+    }
+
+    .menu {
+        width: 60px;
+    }
+    .menu nav a:hover p {
+        font-size: 15px ;
+    }
+}
+@media screen and (max-width: 1250px) and (min-width: 1201px) and (max-height:900px) and (min-height: 835px)  {
+    .main-az-books {
+        /* background-color: red; */
+        left: 310px;
+        bottom: auto; 
+        top: 470px;
+        width: 585px;
+    }
+
+    .main-az-heading {
+
+        font-size: 17px;
+    }
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 310px;
+        width: 585px;
+
+        top: 200px;
+    }
+    .main .books-type {
+        margin-left: 0;
+    }
+    .main-books {
+        margin-left: 0;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        height: 100px;
+    }
+    .books-type .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-2 {
+        width: 130px;
+        height: 140px;;
+    }
+    .books-type .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-2 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 33px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        width: 60px;
+    }
+    .menu nav a:hover p {
+        font-size: 15px ;
+    }
+}
+@media screen and (max-width: 1279px) and (min-width: 1251px) and (max-height:900px) and (min-height: 835px)  {
+    .main-az-books {
+        /* background-color: red; */
+        left: 350px;
+        bottom: auto; 
+        top: 470px;
+        width: 585px;
+    }
+    .main-az-heading {
+        font-size: 17px;
+    }
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 350px;
+        width: 585px;
+        top: 200px;
+    }
+    .main .books-type {
+        margin-left: 0;
+    }
+    .main-books {
+        margin-left: 0;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        height: 100px;
+    }
+    .books-type .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-2 {
+        width: 130px;
+        height: 140px;;
+    }
+    .books-type .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .books-type .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+    /* main-books */
+    
+    .main-books .type-book {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-2 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-3 {
+        width: 130px;
+        height: 140px;
+    }
+    .main-books .type-book-4 {
+        width: 130px;
+        height: 140px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 33px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        width: 60px;
+    }
+    .menu nav a:hover p {
+        font-size: 15px ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 700px) {
+     .close-icon {
+         display: none;
+     }
+}
+
+
+
+
+
+
+/* 
+699      800       
+650      861
+*/
+
+@media screen and (max-width: 699px) and (min-width: 650px) and (max-height:861px) and (min-height:700px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 115px;
+        top: 520px;
+        width: 450px;
+        bottom: auto;
+    }
+
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 115px;
+        min-height: 60px;
+        width: 450px;
+        top: 160px;
+    }
+
+    .main-az-heading {
+
+        font-size: 16px;
+    }
+    .main-h1 {
+        font-size: 16px;
+    }
+  
+
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        margin: 0 auto;
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        max-width: 560px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 125px;
+        height: 135px;
+    }
+    .books-type .type-book-2 {
+        width: 125px;
+        height: 135px;
+    }
+    .books-type .type-book-3 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+        margin-left: 2px ;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 0;
+        /* background-color: red; */
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        transform: translateX(10px);
+        margin: 0 30px;
+        /* background-color: gold; */
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 125px;
+        height: 135px;
+    }
+    .main-books .type-book-2 {
+        width: 125px;
+        height: 135px;;
+    }
+    .main-books .type-book-3 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+    }
+    .main-books .type-book-4 {
+        width: 125px;
+        height: 135px;
+        margin-top: 7px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100vh;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+
+    .menu nav {
+       display: none;
+    } 
+
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+
+
+    .menu i {
+    
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        z-index: 80;
+        cursor: pointer;
+        background-position: center;
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+
+}
+
+@media screen and (max-width: 651px) and (min-width: 600px) and (max-height:861px) and (min-height:700px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 95px;
+        top: 520px;
+        width: 450px;
+        bottom: auto;
+    }
+
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 95px;
+        min-height: 60px;
+        width: 450px;
+        top: 160px;
+    }
+
+    .main-az-heading {
+
+        font-size: 16px;
+    }
+    .main-h1 {
+        font-size: 16px;
+    }
+  
+
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        margin: 0 auto;
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        max-width: 560px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-left: 2px ;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 0;
+        /* background-color: red; */
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        transform: translateX(10px);
+        margin: 0 30px;
+        /* background-color: gold; */
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+    }
+    .main-books .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100vh;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+
+    .menu nav {
+       display: none;
+    } 
+
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+
+
+    .menu i {
+    
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 2px;
+        z-index: 80;
+        cursor: pointer;
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+
+}
+
+@media screen and (max-width: 599px) and (min-width: 550px) and (max-height:861px) and (min-height:700px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 85px;
+        top: 520px;
+        width: 450px;
+        bottom: auto;
+    }
+
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 85px;
+        min-height: 60px;
+        width: 450px;
+        top: 160px;
+    }
+
+    .main-az-heading {
+
+        font-size: 16px;
+    }
+    .main-h1 {
+        font-size: 16px;
+    }
+  
+
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        margin: 0 auto;
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        max-width: 560px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-left: 2px ;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 0;
+        /* background-color: red; */
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        transform: translateX(10px);
+        margin: 0 30px;
+        /* background-color: gold; */
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+    }
+    .main-books .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100vh;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+
+    .menu nav {
+       display: none;
+    } 
+
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+
+
+    .menu i {
+    
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 2px;
+        z-index: 80;
+        cursor: pointer;
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+
+}
+@media screen and (max-width: 551px) and (min-width: 500px) and (max-height:861px) and (min-height:700px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 60px;
+        top: 520px;
+        width: 450px;
+        bottom: auto;
+    }
+
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 60px;
+        min-height: 60px;
+        width: 450px;
+        top: 160px;
+    }
+
+    .main-az-heading {
+
+        font-size: 16px;
+    }
+    .main-h1 {
+        font-size: 16px;
+    }
+  
+
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        margin: 0 auto;
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        max-width: 560px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-left: 2px ;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 0;
+        /* background-color: red; */
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        transform: translateX(10px);
+        margin: 0 30px;
+        /* background-color: gold; */
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+    }
+    .main-books .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100%;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+     body {
+       /* background-position: auto; */
+       /* background-repeat: no-repeat; */
+       }
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+
+    .menu nav {
+       display: none;
+    } 
+
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+
+
+    .menu i {
+    
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 2px;
+        z-index: 80;
+        cursor: pointer;
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+}
+
+@media screen and (max-width: 499px) and (min-width: 450px) and (max-height:861px) and (min-height:700px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 37px;
+        top: 520px;
+        width: 450px;
+        bottom: auto;
+    }
+
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 37px;
+        min-height: 60px;
+        width: 450px;
+        top: 160px;
+    }
+
+    .main-az-heading {
+
+        font-size: 16px;
+    }
+    .main-h1 {
+        font-size: 16px;
+    }
+  
+
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        margin: 0 auto;
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        max-width: 560px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-left: 2px ;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 0;
+        /* background-color: red; */
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        transform: translateX(10px);
+        margin: 0 30px;
+        /* background-color: gold; */
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+    }
+    .main-books .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100%;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+   body {
+       /* background-position: bottom; */
+       /* background-size:  contain; */
+       background-attachment: fixed;
+       /* background-position: center; */
+    }
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+
+    .menu nav {
+       display: none;
+    } 
+
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+
+
+    .menu i {
+    
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 2px;
+        z-index: 80;
+        cursor: pointer;
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+
+}
+
+@media screen and (max-width: 449px) and (min-width: 420px) and (max-height:861px) and (min-height:700px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 38px;
+        top: 520px;
+        width: 400px;
+        bottom: auto;
+        min-height: 60px;
+    }
+
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 37px;
+        min-height: 60px;
+        width: 400px;
+        top: 160px;
+    }
+
+    .main-az-heading {
+
+        font-size: 15px;
+    }
+    .main-h1 {
+        font-size: 15px;
+    }
+  
+
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        margin: 0 auto;
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        max-width: 560px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-left: 2px ;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 0;
+        /* background-color: red; */
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        transform: translateX(10px);
+        margin: 0 auto;
+        /* background-color: gold; */
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+    }
+    .main-books .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100%;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+   body {
+       /* background-position: bottom; */
+       /* background-size:  contain; */
+       background-attachment: fixed;
+       /* background-position: center; */
+    }
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+
+    .menu nav {
+       display: none;
+    } 
+
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+
+
+    .menu i {
+    
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 2px;
+        z-index: 80;
+        cursor: pointer;
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+
+}
+
+@media screen and (max-width: 421px) and (min-width: 400px) and (max-height:861px) and (min-height:700px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 31px;
+        top: 520px;
+        width: 400px;
+        bottom: auto;
+        min-height: 60px;
+    }
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 30px;
+        min-height: 60px;
+        width: 400px;
+        top: 160px;
+    }
+
+    .main-az-heading {
+        font-size: 16px;
+    }
+    .main-h1 {
+        font-size: 15px;
+    }
+  
+    .main-books {
+        margin-left: 0;
+        min-width: 500px;
+    }
+    .main .books-type {
+        margin-left: 0;
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        margin: 0 auto;
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 50px;
+        max-width: 560px;
+        height: 100px;
+        transform: translateX(18px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .books-type .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-left: 2px ;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 0;
+        /* background-color: red; */
+        display: flex;
+        flex-flow: row wrap;
+        width: 370px;
+        min-width: 0;
+        transform: translateX(10px);
+        margin: 0 auto;
+        /* background-color: gold; */
+        height: 100%;
+        /* background-color: aquamarine; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-2 {
+        width: 120px;
+        height: 130px;
+    }
+    .main-books .type-book-3 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+    }
+    .main-books .type-book-4 {
+        width: 120px;
+        height: 130px;
+        margin-top: 7px;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 31px ;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 15px;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100%;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+   body {
+       /* background-position: bottom; */
+       /* background-size:  contain; */
+       background-attachment: fixed;
+       /* background-position: center; */
+    }
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+    .menu nav {
+       display: none;
+    } 
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+    .menu i {
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 2px;
+        z-index: 80;
+        cursor: pointer;
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+
+}
+
+@media screen and (max-width: 399px) and (min-width: 370px) and (max-height:861px) and (min-height:700px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 31px;
+        top: 850px;
+        width: 400px;
+        bottom: auto;
+        min-height: 60px;
+    }
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 30px;
+        min-height: 60px;
+        width: 400px;
+        top: 150px;
+    }
+
+    .main-az-heading {
+        font-size: 16px;
+        transform: translateX(-7px);
+    }
+    .main-h1 {
+        font-size: 16px;
+        padding-bottom: 8px;
+        padding-top: 7px;
+        transform: translateX(-7px);
+    }
+  /* rebecapurple */
+    .main .books-type {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 30px;
+        max-width: 212px;
+        height: 100px;
+        transform: translateX(30px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 140px;
+        margin-top: 0;
+        height: 150px;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 140px;
+        margin-top: 0;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 29px;
+        white-space: pre;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 14px;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100%;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+   body {
+       /* background-position: bottom; */
+       /* background-size:  contain; */
+       background-attachment: fixed;
+       overflow-x: hidden;
+       /* background-position: center; */
+    }
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+    .menu nav {
+       display: none;
+    } 
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+    .menu i {
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 1px;
+        z-index: 80;
+        cursor: pointer;
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 34px;
+        height: 34px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+    .my-officials {
+       right: -19px;
+    }
+
+}
+/*  */
+/*  */
+@media screen and (max-width: 371px) and (min-width: 350px) and (max-height:861px) and (min-height:700px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 25px;
+        top: 850px;
+        width: 400px;
+        bottom: auto;
+        min-height: 60px;
+    }
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 25px;
+        min-height: 60px;
+        width: 400px;
+        top: 150px;
+    }
+
+    .main-az-heading {
+        font-size: 16px;
+        transform: translateX(-7px);
+    }
+    .main-h1 {
+        font-size: 16px;
+        padding-bottom: 8px;
+        padding-top: 7px;
+        transform: translateX(-7px);
+    }
+  /* rebecapurple */
+    .main .books-type {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 30px;
+        max-width: 212px;
+        height: 100px;
+        transform: translateX(40px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 140px;
+        margin-top: 0;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        box-shadow: 4px 2px #888888;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 140px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 0;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        box-shadow: 4px 2px #888888;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        box-shadow: 4px 2px #888888;
+        margin-bottom: 5px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 29px;
+        text-shadow: -1px 0 #222, 0 1px #222, 1px 0 #222, 0 -1px #222;
+        white-space: pre;
+    }
+    .banner-txt .h2 h2 {
+      font-size: 14px;
+       text-shadow: -1px 0 #222, 0 1px #222, 1px 0 #222, 0 -1px #222;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100%;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+   body {
+       /* background-position: bottom; */
+       /* background-size:  contain; */
+       background-attachment: fixed;
+       overflow-x: hidden;
+       /* background-position: center; */
+    }
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+    .menu nav {
+       display: none;
+    } 
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+    .menu i {
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        box-shadow: 1px seagreen ;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 1px;
+        z-index: 80;
+        cursor: pointer;
+
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 34px;
+        height: 34px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+    .my-officials {
+       right: -64px;
+    }
+
+
+}
+
+@media screen and (max-width: 349px) and (min-width: 330px) and (max-height:861px) and (min-height:700px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 27px;
+        top: 850px;
+        width: 400px;
+        bottom: auto;
+        min-height: 60px;
+    }
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 27px;
+        min-height: 60px;
+        width: 400px;
+        top: 150px;
+    }
+
+    .main-az-heading {
+        font-size: 16px;
+        transform: translateX(-7px);
+    }
+    .main-h1 {
+        font-size: 16px;
+        padding-bottom: 8px;
+        padding-top: 7px;
+        transform: translateX(-7px);
+    }
+  /* rebecapurple */
+    .main .books-type {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 30px;
+        max-width: 212px;
+        height: 100px;
+        transform: translateX(48px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 140px;
+        margin-top: 0;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        box-shadow: 4px 2px #888888;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 140px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 0;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        box-shadow: 4px 2px #888888;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        box-shadow: 4px 2px #888888;
+        margin-bottom: 5px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 29px;
+        text-shadow: -1px 0 #222, 0 1px #222, 1px 0 #222, 0 -1px #222;
+        white-space: pre;
+    }
+    .banner-txt .h2 h2 {
+      font-size: 14px;
+       text-shadow: -1px 0 #222, 0 1px #222, 1px 0 #222, 0 -1px #222;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100%;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+   body {
+       /* background-position: bottom; */
+       /* background-size:  contain; */
+       background-attachment: fixed;
+       overflow-x: hidden;
+       /* background-position: center; */
+    }
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+    .menu nav {
+       display: none;
+    } 
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+    .menu i {
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        box-shadow: 1px seagreen ;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 1px;
+        z-index: 80;
+        cursor: pointer;
+
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 34px;
+        height: 34px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+    .my-officials {
+       right: -64px;
+       display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 329px) and (min-width: 300px) and (max-height:861px) and (min-height:700px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 27px;
+        top: 850px;
+        width: 400px;
+        bottom: auto;
+        min-height: 60px;
+    }
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 27px;
+        min-height: 60px;
+        width: 400px;
+        top: 150px;
+    }
+
+    .main-az-heading {
+        font-size: 16px;
+        transform: translateX(-7px);
+    }
+    .main-h1 {
+        font-size: 16px;
+        padding-bottom: 8px;
+        padding-top: 7px;
+        transform: translateX(-7px);
+    }
+  /* rebecapurple */
+    .main .books-type {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 30px;
+        max-width: 212px;
+        height: 100px;
+        margin-left: 113px;
+        /* transform: translateX(48px); */
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 140px;
+        margin-top: 0;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        box-shadow: 4px 2px #888888;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 140px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 0;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        box-shadow: 4px 2px #888888;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        box-shadow: 4px 2px #888888;
+        margin-bottom: 5px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 29px;
+        text-shadow: -1px 0 #222, 0 1px #222, 1px 0 #222, 0 -1px #222;
+        white-space: pre;
+    }
+    .banner-txt .h2 h2 {
+      font-size: 14px;
+       text-shadow: -1px 0 #222, 0 1px #222, 1px 0 #222, 0 -1px #222;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100%;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+   body {
+       /* background-position: bottom; */
+       /* background-size:  contain; */
+       background-attachment: fixed;
+       overflow-x: hidden;
+       /* background-position: center; */
+    }
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+    .menu nav {
+       display: none;
+    } 
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+    .menu i {
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        box-shadow: 1px seagreen ;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 1px;
+        z-index: 80;
+        cursor: pointer;
+
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 34px;
+        height: 34px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+    .my-officials {
+       right: -64px;
+       display: none;
+    }
+
+}
+@media screen and (max-width: 399px) and (min-width: 370px) and (max-height:700px) and (min-height:600px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 30px;
+        top: 850px;
+        width: 400px;
+        bottom: auto;
+        min-height: 60px;
+    }
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 30px;
+        min-height: 60px;
+        width: 400px;
+        top: 150px;
+    }
+
+    .main-az-heading {
+        font-size: 16px;
+        transform: translateX(-7px);
+    }
+    .main-h1 {
+        font-size: 16px;
+        padding-bottom: 8px;
+        padding-top: 7px;
+        transform: translateX(-7px);
+    }
+  /* rebecapurple */
+    .main .books-type {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 30px;
+        max-width: 212px;
+        height: 100px;
+        transform: translateX(30px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 140px;
+        margin-top: 0;
+        height: 150px;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 140px;
+        margin-top: 0;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 29px;
+        white-space: pre;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 14px;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100%;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+   body {
+       /* background-position: bottom; */
+       /* background-size:  contain; */
+       background-attachment: fixed;
+       overflow-x: hidden;
+       /* background-position: center; */
+    }
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+    .menu nav {
+       display: none;
+    } 
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+    .menu i {
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 1px;
+        z-index: 80;
+        cursor: pointer;
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 34px;
+        height: 34px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+    .my-officials {
+       right: -19px;
+       display: none;
+    }
+
+}
+
+@media screen and (max-width: 371px) and (min-width: 350px) and (max-height:700px) and (min-height:600px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 30px;
+        top: 850px;
+        width: 400px;
+        bottom: auto;
+        min-height: 60px;
+    }
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 30px;
+        min-height: 60px;
+        width: 400px;
+        top: 150px;
+    }
+
+    .main-az-heading {
+        font-size: 16px;
+        transform: translateX(-7px);
+    }
+    .main-h1 {
+        font-size: 16px;
+        padding-bottom: 8px;
+        padding-top: 7px;
+        transform: translateX(-7px);
+    }
+  /* rebecapurple */
+    .main .books-type {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 25px;
+        max-width: 212px;
+        height: 100px;
+        margin-left: 110px;
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 140px;
+        margin-top: 0;
+        height: 150px;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 140px;
+        margin-top: 0;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 29px;
+        white-space: pre;
+    }
+    .banner-txt .h2 h2 {
+        font-size: 14px;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100%;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+   body {
+       /* background-position: bottom; */
+       /* background-size:  contain; */
+       background-attachment: fixed;
+       overflow-x: hidden;
+       /* background-position: center; */
+    }
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+    .menu nav {
+       display: none;
+    } 
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+    .menu i {
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 1px;
+        z-index: 80;
+        cursor: pointer;
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 34px;
+        height: 34px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+    .my-officials {
+       right: -19px;
+       display: none;
+    }
+
+}
+
+@media screen and (max-width: 349px) and (min-width: 330px) and (max-height:700px) and (min-height:600px){
+    .main-az-books {
+        /* background-color: red; */
+        left: 27px;
+        top: 850px;
+        width: 400px;
+        bottom: auto;
+        min-height: 60px;
+    }
+
+    .main {
+        /* background-color: rebeccapurple; */
+        left: 27px;
+        min-height: 60px;
+        width: 400px;
+        top: 150px;
+    }
+
+    .main-az-heading {
+        font-size: 16px;
+        transform: translateX(-7px);
+    }
+    .main-h1 {
+        font-size: 16px;
+        padding-bottom: 8px;
+        padding-top: 7px;
+        transform: translateX(-7px);
+    }
+  /* rebecapurple */
+    .main .books-type {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .banner-txt {
+        /* background-color: beige; */
+        margin-top: 30px;
+        max-width: 212px;
+        height: 100px;
+        transform: translateX(48px);
+    }
+    /* rebapurple */
+    .books-type .type-book {
+        width: 140px;
+        margin-top: 0;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+    }
+    .books-type .type-book-2 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .books-type .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        box-shadow: 4px 2px #888888;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .books-type .type-book-4 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+
+    /* red */
+    /* main-books */
+    .main-books {
+        margin-left: 90px;
+        display: flex;
+        flex-flow: row wrap;
+        width: 200px;
+        min-width: 0;
+        /* background-color: gold; */
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-books .type-book {
+        width: 140px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 0;
+        height: 150px;
+    }
+    .main-books .type-book-2 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        box-shadow: 4px 2px #888888;
+    }
+    .main-books .type-book-3 {
+        width: 140px;
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+        box-shadow: 4px 2px #888888;
+        margin-bottom: 5px;
+    }
+    .main-books .type-book-4 {
+        width: 140px;
+        height: 150px;
+        box-shadow: 4px 2px #888888;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .banner-txt .h1 h1 {
+        font-size: 29px;
+        text-shadow: -1px 0 #222, 0 1px #222, 1px 0 #222, 0 -1px #222;
+        white-space: pre;
+    }
+    .banner-txt .h2 h2 {
+      font-size: 14px;
+       text-shadow: -1px 0 #222, 0 1px #222, 1px 0 #222, 0 -1px #222;
+    }
+
+    .menu {
+        /* width: 100%; */
+        width: 0;
+        height: 100%;
+        z-index: 100;
+        text-align: center;
+        transition: 900ms all;
+    }
+   body {
+       /* background-position: bottom; */
+       /* background-size:  contain; */
+       background-attachment: fixed;
+       overflow-x: hidden;
+       /* background-position: center; */
+    }
+    .menu nav a {
+        /* border: 1px solid green; */
+         color: #181818;
+         display: block;
+         /* display: none; */
+    }
+    .menu nav {
+       display: none;
+    } 
+    .menu nav a p {
+        font-size: 20px ;
+        color: #23ffde;
+        transform: translateY(-9px);
+        display: block;
+    }
+
+    .menu nav a:hover p {
+        font-size: 20px;
+    }
+    .menu i {
+        display: none;
+     }
+
+     .menu .menu-name{
+        display: block; 
+       width: 100%;
+       height: 25px;
+       /* background-color: #ccc; */
+        left: auto;
+        transform: none;
+    }
+    .close-icon {
+        display: block;
+        position: absolute;
+        right: 8px;
+        cursor: pointer;
+        z-index: 30;
+        box-shadow: 1px seagreen ;
+        background-position: center;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        background-image: url(icons8-close-26.png);
+    }
+
+    .open-icon {
+        display: block;
+        position: absolute;
+        left: 10px;
+        transition: 1200ms all;
+        border: 1px solid #fff;
+        border-radius: 1px;
+        z-index: 80;
+        cursor: pointer;
+
+        padding: 5px;
+        background-position: center;
+        top: 10px;
+        width: 34px;
+        height: 34px;
+        background-image: url(icons8-menu-30.png);
+    }
+
+    #opeen {
+        transition: 1200ms all;
+    }
+
+    .my-officials {
+       right: -64px;
+       display: none;
+    }
+
+
+}
